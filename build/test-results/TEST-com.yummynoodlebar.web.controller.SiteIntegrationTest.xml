@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.yummynoodlebar.web.controller.SiteIntegrationTest" tests="1" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="Macintosh.local" time="1.392712878559E9">
+  <properties/>
+  <testcase name="thatTextReturned" classname="com.yummynoodlebar.web.controller.SiteIntegrationTest" time="0.939"/>
+  <system-out><![CDATA[2014-02-18 16:41:17 DEBUG StandardEnvironment:112 - Initializing new StandardEnvironment
+2014-02-18 16:41:17 DEBUG StandardEnvironment:107 - Adding [systemProperties] PropertySource with lowest search precedence
+2014-02-18 16:41:17 DEBUG StandardEnvironment:107 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-02-18 16:41:17 DEBUG StandardEnvironment:116 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-02-18 16:41:18 INFO  StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:179 - Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.yummynoodlebar.web.controller.SiteController.getCurrentMenu()
+2014-02-18 16:41:18 DEBUG RequestMappingHandlerAdapter:618 - Looking for controller advice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@66a9f5e9
+2014-02-18 16:41:18 DEBUG TestDispatcherServlet:118 - Initializing servlet ''
+2014-02-18 16:41:18 DEBUG StandardServletEnvironment:112 - Initializing new StandardServletEnvironment
+2014-02-18 16:41:18 DEBUG StandardServletEnvironment:107 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2014-02-18 16:41:18 DEBUG StandardServletEnvironment:107 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2014-02-18 16:41:18 DEBUG StandardServletEnvironment:107 - Adding [jndiProperties] PropertySource with lowest search precedence
+2014-02-18 16:41:18 DEBUG StandardServletEnvironment:107 - Adding [systemProperties] PropertySource with lowest search precedence
+2014-02-18 16:41:18 DEBUG StandardServletEnvironment:107 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-02-18 16:41:18 DEBUG StandardServletEnvironment:116 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2014-02-18 16:41:18 INFO  MockServletContext:390 - Initializing Spring FrameworkServlet ''
+2014-02-18 16:41:18 INFO  TestDispatcherServlet:454 - FrameworkServlet '': initialization started
+2014-02-18 16:41:18 DEBUG TestDispatcherServlet:467 - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+2014-02-18 16:41:18 DEBUG TestDispatcherServlet:482 - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@36c12ae3]
+2014-02-18 16:41:18 DEBUG TestDispatcherServlet:504 - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@243250b1]
+2014-02-18 16:41:18 DEBUG TestDispatcherServlet:642 - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@62654ae7]
+2014-02-18 16:41:18 DEBUG TestDispatcherServlet:704 - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@5c95306c]
+2014-02-18 16:41:18 DEBUG TestDispatcherServlet:533 - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+2014-02-18 16:41:18 INFO  TestDispatcherServlet:473 - FrameworkServlet '': initialization completed in 8 ms
+2014-02-18 16:41:18 DEBUG TestDispatcherServlet:139 - Servlet '' configured successfully
+2014-02-18 16:41:18 DEBUG TestDispatcherServlet:823 - DispatcherServlet with name '' processing GET request for [/]
+2014-02-18 16:41:18 DEBUG StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:220 - Looking up handler method for path /
+2014-02-18 16:41:18 DEBUG StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping:227 - Returning handler method [public java.lang.String com.yummynoodlebar.web.controller.SiteController.getCurrentMenu()]
+2014-02-18 16:41:18 DEBUG TestDispatcherServlet:912 - Last-Modified value for [/] is: -1
+2014-02-18 16:41:18 DEBUG SiteController:28 - Yummy Menu directly to ResponseBody
+2014-02-18 16:41:18 DEBUG RequestResponseBodyMethodProcessor:150 - Written [Yummy Noodles,Special Yummy Noodles,Low cal Yummy Noodles] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@5c8aa7f4]
+2014-02-18 16:41:18 DEBUG TestDispatcherServlet:999 - Null ModelAndView returned to DispatcherServlet with name '': assuming HandlerAdapter completed request handling
+2014-02-18 16:41:18 DEBUG TestDispatcherServlet:966 - Successfully completed request
+
+MockHttpServletRequest:
+         HTTP Method = GET
+         Request URI = /
+          Parameters = {}
+             Headers = {}
+
+             Handler:
+                Type = com.yummynoodlebar.web.controller.SiteController
+              Method = public java.lang.String com.yummynoodlebar.web.controller.SiteController.getCurrentMenu()
+
+               Async:
+   Was async started = false
+        Async result = null
+
+  Resolved Exception:
+                Type = null
+
+        ModelAndView:
+           View name = null
+                View = null
+               Model = null
+
+            FlashMap:
+
+MockHttpServletResponse:
+              Status = 200
+       Error message = null
+             Headers = {Content-Type=[text/plain;charset=ISO-8859-1], Content-Length=[57]}
+        Content type = text/plain;charset=ISO-8859-1
+                Body = Yummy Noodles,Special Yummy Noodles,Low cal Yummy Noodles
+       Forwarded URL = null
+      Redirected URL = null
+             Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
